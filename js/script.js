@@ -69,14 +69,27 @@
 // attribute in jquery
 
 // dom query
-$(document).ready(function () {
-    // $('ul.menus').children('li').css('color','red')
-    // $('ul.menus').find('li').css('color','red')
+// $(document).ready(function () {
+//     // $('ul.menus').children('li').css('color','red')
+//     // $('ul.menus').find('li').css('color','red')
 
-})
-
-
-
+// })
 // 
 
 
+// $(document).ready(function () {
+//     $('#b1').click(function () {
+//         $('h1').addClass('head')
+//     })
+//     $('#b2').click(function () {
+//         $('h1').removeClass('head')
+//     })
+// })
+
+
+// first child 
+$(document).ready(function () {
+    // $('ul.menu').children('li').addClass('color')
+    $('ul.menu').children('li').first().addClass('color')
+})
+// first child 

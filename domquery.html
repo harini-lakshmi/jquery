@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>domquery</title>
     <style>
-        ul{color: blueviolet;}
+        .head {
+            color: blueviolet;
+        }
+
+        li {
+            color: #000;
+        }
+        .color{color:blueviolet;}
     </style>
 </head>
 
 <body>
-    <!-- children selector -->
-    <h1>children</h1>
-    <ul class="menus">
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
+    <!-- <h1 class="head">add and remove</h1>
+    <button id="b1">show</button>
+    <button id="b2">hide</button> -->
+    <h1>first child</h1>
+    <ul class="menu">
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+        <li>faq</li>
         <li>
-            <!-- Lifestyle Blog -->
             <ul>
-                <li>Daily Vibes</li>
-                <li>My Morning Routine</li>
-                <li>Baking Bliss</li>
+                <li>Latest in Tech</li>
+                <li>Coding Tips </li>
+                <li>Hidden Gems</li>
             </ul>
         </li>
     </ul>
+
+
 
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
