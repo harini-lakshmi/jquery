@@ -88,8 +88,16 @@
 
 
 // first child 
-$(document).ready(function () {
-    // $('ul.menu').children('li').addClass('color')
-    $('ul.menu').children('li').first().addClass('color')
-})
+// $(document).ready(function () {
+//     // $('ul.menu').children('li').addClass('color')
+//     $('ul.menu').children('li').first().addClass('color')
+// })
 // first child 
+
+$(document).ready(function () {
+    // this is nth - child using
+    // $('ul.menu').children('li:nth-child(2)').text('nth-child using') 
+    // this is the jquery eq() function
+    $('ul.menu').children('li').eq(1).text('using eq method')
+
+})
