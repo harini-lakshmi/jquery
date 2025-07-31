@@ -31,12 +31,10 @@
 // })
 // class selector
 
-
 // multiple selector
 // $("document").ready(function () {
 //     $('.a,#b').html('gfdjgnjfg');
 //     $('.a,#b').css('color', 'red')
-
 // })
 // multiple selector
 
@@ -46,3 +44,26 @@
 //     $('.a:last').css('color', 'orange')
 // })
 // first and last element selector
+
+// class with Element selector
+// $(document).ready(function () {
+//     $('p.a').css('background-color', 'red')
+// })
+// class with Element selector
+
+//contains
+// $(document).ready(function(){
+//     $('p:contains(c)').css('color',"orange")
+// })
+//contains
+
+
+// attribute in jquery
+$(document).ready(function () {
+    $('img').click(function () {
+        var a = $(this).attr('src')
+        alert(a)
+        $(this).attr('src','images/slide-3.jpg')
+    })
+})
+// attribute in jquery
