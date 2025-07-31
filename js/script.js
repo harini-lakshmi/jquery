@@ -59,11 +59,24 @@
 
 
 // attribute in jquery
-$(document).ready(function () {
-    $('img').click(function () {
-        var a = $(this).attr('src')
-        alert(a)
-        $(this).attr('src','images/slide-3.jpg')
-    })
-})
+// $(document).ready(function () {
+//     $('img').click(function () {
+//         var a = $(this).attr('src')
+//         alert(a)
+//         $(this).attr('src', 'images/slide-3.jpg')
+//     })
+// })
 // attribute in jquery
+
+// dom query
+$(document).ready(function () {
+    // $('ul.menus').children('li').css('color','red')
+    // $('ul.menus').find('li').css('color','red')
+
+})
+
+
+
+// 
+
+
